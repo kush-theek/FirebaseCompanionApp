@@ -1,0 +1,17 @@
+   ______________________________
+ / \                             \.
+|   | This log file was created  |.
+ \_ | by the Wizard, it contains |.
+    | the configuration data     |.
+    | used for the application   |.
+    | generation.                |.
+    |                            |.
+    | It shouldn't be edited     |.
+    | manually, changing it      |.
+    | won't affect the generated |.
+    | sample.                    |.
+    |   _________________________|___
+    |  /                            /.
+    \_/____________________________/.
+
+{"projectName":"Validate","projectLocation":"/Users/kushagra/Desktop/workspace/theektek/validate-proj-dir","projectNamespace":"com.theektek.validatesub","accountName":"kushagra","serviceURL":"https://mobservdemo-t2p7gmum-demo-validatesubaccount-theektek-com.cfapps.ap10.hana.ondemand.com/","serverURL":"https://mobile-service-cockpit-web.cfapps.ap10.hana.ondemand.com/cockpit/v1/org/THEEK%20TEK%20PTY%20LTD_mobservdemo-t2p7gmum/space/demo/","applicationID":"validatesubaccount.theektek.com","applicationSecurityConfig":"OAUTH","jsonPath":null,"senderID":null,"serverKey":null,"isLogEnabled":false,"isLogUploadEnabled":false,"SAPSDKLocation":"MAVEN_LOCAL","activationType":"unSignedQRCode","generateJavaCode":false,"generateOnlineApp":true,"isUsageIncluded":false,"isCrashReportIncluded":false,"isMultipleUserMode":true,"isViewBaseFramework":true}

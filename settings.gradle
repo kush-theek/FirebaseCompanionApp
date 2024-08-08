@@ -1,0 +1,3 @@
+rootProject.name = "Validate"
+include ':app'
+include ':odataproxyclasses'

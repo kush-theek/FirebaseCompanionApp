@@ -1,0 +1,6 @@
+{
+  "__comment": "When modifying this file, you need to reset or reinstall all current client installations",
+  "ServiceUrl" : "https://mobservdemo-t2p7gmum-demo-validatesubaccount-theektek-com.cfapps.ap10.hana.ondemand.com/",
+  "appID": "validatesubaccount.theektek.com",
+  "multiUser": true
+}

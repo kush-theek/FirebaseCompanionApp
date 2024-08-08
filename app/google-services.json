@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74163563867",
+    "project_id": "validate-app",
+    "storage_bucket": "validate-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74163563867:android:25e517db8ece77243c7e7e",
+        "android_client_info": {
+          "package_name": "com.theektek.validatesub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ9DZDVeVcdNYBopaQpnkvI4puCAx73y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

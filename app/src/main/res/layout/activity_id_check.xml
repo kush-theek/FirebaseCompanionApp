@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="18dp"
+    android:layout_marginVertical="22dp"
+    tools:context=".app.core.IdCheckActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_header_1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Validate Application"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/fb_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Validate an existing ID from firebase" />
+
+
+       <com.sap.cloud.mobile.fiori.formcell.NoteFormCell
+           android:id="@+id/note_cell"
+           app:helperEnabled="true"
+           app:helperText="Initial ID is Always Unique"
+
+           app:key="Sample ID"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+
+            android:layout_marginRight="8dp"
+            android:text="Check"
+            android:layout_weight="1"
+            android:id="@+id/button_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_unique"
+            android:text="Unique"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_existing"
+            android:text="Existing"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
